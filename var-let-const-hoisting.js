@@ -1,18 +1,18 @@
 // var - let - const
 
 // let age; -> undefined ciktisi verir - baslangic degeri olmadan tanımlabilir.
-let age = 28;
-console.log(age);
+// let age = 28;
+// console.log(age);
 
-age = 29;
-console.log(age); // let ile tanımlanan değişkenin değeri değişebilir.
+// age = 29;
+// console.log(age); let ile tanımlanan değişkenin değeri değişebilir.
 
 //const name; -> baslangic degeri olmadan tanımlanamaz.
-const name = "Cenk";
+// const name = "Cenk";
 // name = "Cenk"; -> const ile tanımlanan değişkenin değeri değişmez.
 // console.log(name);
 
-
+// *************************************************************************************************************************
 
 /*
 const myArray = [1, 2, 3];
@@ -48,6 +48,7 @@ objenin içindeki değeri değiştirilmesini istemiyorsak şu methodu kullanabil
 Object.freeze(fruits);
 */
 
+// *************************************************************************************************************************
 
 /* 
 var --> global scope / functional scope
@@ -85,6 +86,8 @@ console.log(window.x); -> let ile oluşturulan değişken window nesnesine bağl
 
 -> const içinde aynısı geçerlidir. let gibi davranır.
 */
+
+// *************************************************************************************************************************
 
 
 /* --HOISTING--
